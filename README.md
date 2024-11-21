@@ -71,7 +71,9 @@ nvidia-smi
 
 
 ## Download Models from huggingface
+
 I choosed llama3.2-3B
+
 https://huggingface.co/meta-llama/Llama-3.2-3B
 
 
