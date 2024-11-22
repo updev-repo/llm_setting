@@ -78,3 +78,13 @@ https://huggingface.co/meta-llama/Llama-3.2-3B
 
 
 ## Convert to ollama Model
+
+`nano Modelfile`
+
+Add below line
+
+`FROM .`
+
+And create ollama model with command
+
+`Ollama create <name>`
