@@ -10,6 +10,13 @@ Verify that the drivers are installed by running the following command, which sh
 nvidia-smi
 ```
 
+### Common Driver Versions for Popular GPUs:
+
++ NVIDIA RTX 3000 series: nvidia-driver-530 or later.
++ NVIDIA RTX 4000 series: nvidia-driver-535 or later.
++ NVIDIA A100, H100, L40: nvidia-driver-535 or nvidia-driver-545.
+
+
 + Task
   + Ububntu install
   + NVIDIA DRiver
