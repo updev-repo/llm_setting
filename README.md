@@ -12,10 +12,17 @@ nvidia-smi
 
 ### Common Driver Versions for Popular GPUs:
 
++ Find matching NVIDIA versin in this website
+  + https://www.nvidia.com/en-in/drivers/
 + NVIDIA RTX 3000 series: nvidia-driver-530 or later.
 + NVIDIA RTX 4000 series: nvidia-driver-535 or later.
 + NVIDIA A100, H100, L40: nvidia-driver-535 or nvidia-driver-545.
 
+#### On aws two type driver
+  + NVIDIA driver
+    + https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/install-nvidia-driver.html#nvidia-GRID-driver
+  + AMD driver
+    + https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/install-amd-driver.html#amd-radeon-pro-software-for-enterprise-driver
 
 + Task
   + Ububntu install
