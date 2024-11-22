@@ -1,5 +1,21 @@
 # llm_setting
 
+### Install CUDA drivers (optional)
+
+[Download and install](https://developer.nvidia.com/cuda-downloads) CUDA.
+
+Verify that the drivers are installed by running the following command, which should print details about your GPU:
+
+```shell
+nvidia-smi
+```
+
++ Task
+  + Ububntu install
+  + NVIDIA DRiver
+  + CUDA Driver
+
+
 ## Ollama Installation
 
 ### Linux
@@ -57,16 +73,6 @@ Then start the service:
 ```shell
 sudo systemctl daemon-reload
 sudo systemctl enable ollama
-```
-
-### Install CUDA drivers (optional)
-
-[Download and install](https://developer.nvidia.com/cuda-downloads) CUDA.
-
-Verify that the drivers are installed by running the following command, which should print details about your GPU:
-
-```shell
-nvidia-smi
 ```
 
 
